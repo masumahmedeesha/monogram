@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  -  docker build -t masumahmedeesha/docker-kubernetes-react -f Dockerfile.dev .
+
+script:
+  - docker run masumahmedeesha/docker-kubernetes-react npm run test -- --coverage
