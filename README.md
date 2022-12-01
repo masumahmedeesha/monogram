@@ -31,3 +31,9 @@ services:
   #     - /app/node_modules
   #     - .:/app
   #   command: [ 'npm', 'run', 'test' ]
+
+
+travis.yml
+
+script:
+  - docker run -e CI=true masumahmedeesha/docker-kubernetes-react npm run test
