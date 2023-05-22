@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/monogram/static/css/main.fd8e6cb3.css",
+    "main.css": "/monogram/static/css/main.f0d32c56.css",
     "main.js": "/monogram/static/js/main.1f0cad5b.js",
     "static/js/335.d2fe15cf.chunk.js": "/monogram/static/js/335.d2fe15cf.chunk.js",
     "static/js/196.5887ab75.chunk.js": "/monogram/static/js/196.5887ab75.chunk.js",
@@ -9,11 +9,11 @@
     "static/js/513.59119225.chunk.js": "/monogram/static/js/513.59119225.chunk.js",
     "static/js/149.dbb5e5b9.chunk.js": "/monogram/static/js/149.dbb5e5b9.chunk.js",
     "index.html": "/monogram/index.html",
-    "main.fd8e6cb3.css.map": "/monogram/static/css/main.fd8e6cb3.css.map",
+    "main.f0d32c56.css.map": "/monogram/static/css/main.f0d32c56.css.map",
     "main.1f0cad5b.js.map": "/monogram/static/js/main.1f0cad5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd8e6cb3.css",
+    "static/css/main.f0d32c56.css",
     "static/js/main.1f0cad5b.js"
   ]
 }
