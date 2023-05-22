@@ -54,7 +54,7 @@ export default function Footer() {
                 <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.github.com/masumahmedeesha/docker-kubernetes-react">
+                    href="https://github.com/masumahmedeesha/monogram">
                     <span>&lt;/&gt;</span> github
                 </a>
                 <span>
@@ -66,35 +66,7 @@ export default function Footer() {
                         @masumahmedeesha
                     </a>
                 </span>
-                {/* {showList ? (
-                    <div className="contributor-list" onBlur={console.log}>
-                        <h2>contributors</h2>
-                        {contributors.map((contributor) => (
-                            <a
-                                className="contributor"
-                                href={contributor.html_url}
-                                target="_blank"
-                                rel="noreferrer"
-                                key={contributor.node_id}>
-                                <img
-                                    height={50}
-                                    width={50}
-                                    src={contributor.avatar_url}
-                                    alt={`${contributor.login}'s avatar`}
-                                />
-                                <div className="contributor-details">
-                                    <div>@{contributor.login}</div>
-                                    <div>
-                                        {contributor.contributions} commits
-                                    </div>
-                                </div>
-                            </a>
-                        ))}
-                    </div>
-                ) : null} */}
-                {/* <button onClick={() => setShowList((s) => !s)}>
-                    {showList ? "x close" : "{} contributors"}
-                </button> */}
+
             </footer>
         </div>
     );

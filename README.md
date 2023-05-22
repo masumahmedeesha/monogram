@@ -8,6 +8,21 @@ npm start     # to start local server at `localhost:3000`
 npm run build # to create production build run
 ```
 
+## To deploy as Github page
+```
+- yarn add gh-pages -D
+- add following code to scripts
+```
+        "deploy": "gh-pages -d build",
+        "prepare": "husky install"
+```
+- yarn run deploy
+- On package.json, write the correct url, like https://masumahmedeesha.github.io/monogram
+- Go to Github Page (in Settings), select gh-pages as repository.
+- That's all, now you've a view.
+```
+
+
 version: '3'
 services:
   web:

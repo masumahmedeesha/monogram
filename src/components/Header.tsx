@@ -27,8 +27,8 @@ interface AnimationProps {
 export const options: Options = {
     time: [15, 30, 45, 60, 120],
     theme: [
-        "default",
-        "mkbhd",
+        "optimus-prime",
+        "cottage-jams",
         "mocha",
         "coral",
         "ocean",
@@ -147,7 +147,10 @@ export default function Header() {
     return (
         <header className={timerId ? "hidden" : undefined}>
             <a href="." className="brand">
-                typing-test
+                <div>
+                    {"monogram"}
+                    <div style={{ fontSize: '13px' }}>{"test typing now!"}</div>
+                </div>
             </a>
             <div className="buttons">
                 {Object.entries(options).map(([option, choices]) => (
