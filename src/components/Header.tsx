@@ -56,7 +56,7 @@ export default function Header() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        const theme = localStorage.getItem("theme") || "default";
+        const theme = localStorage.getItem("theme") || "optimus-prime";
         const type = localStorage.getItem("type") || "words";
         const time = parseInt(localStorage.getItem("time") || "60", 10);
         import(`wordlists/${type}.json`).then((words) =>
